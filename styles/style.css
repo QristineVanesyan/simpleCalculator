@@ -72,6 +72,10 @@ button
     height: 45px;
     border: none;
 }
+button:hover,button:focus,button:active
+{
+    background-color: #0469c1;
+}
 .footer {
     min-height: 100px;
     background-color: #003a6d;

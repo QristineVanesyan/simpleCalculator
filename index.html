@@ -6,6 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" async></script>
+    <script src="scripts/app.js" async></script>
     <title>Document</title>
 </head>
 <body>
@@ -21,15 +23,15 @@
             <input type="number" id="number" name="number" placeholder="12">
         </div>
         <div class="keyboard">
-        <button type="button">+</button>
-        <button type="button">-</button>
-        <button type="button">*</button>
-        <button type="button">-</button>
+        <button type="button" id="plus" name="plus">+</button>
+        <button type="button" id="minus" name="subtract">-</button>
+        <button type="button" id="multiplication" name="multiplication">*</button>
+        <button type="button" id="division" name="division">/</button>
         </div>
     </div>
     <div class="result">
-        <span class="current-number">125</span>
-        <span>Result:<span class="result-number">125</span></span>
+        <span id="current-number" class="current-number">0</span>
+        <span>Result:<span id="result" class="result-number">0</span></span>
     </div>
 
 </main>
