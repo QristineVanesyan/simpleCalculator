@@ -1,7 +1,7 @@
 const defaultResult = 0;
 let currResult = defaultResult;
 function isValid() {
-    return (input.value === '') ? 0 : Number.parseInt(input.value);
+    return (input.value) ? 0 : Number.parseInt(input.value);
 }
 function add() {
     let number = isValid(input.value);
